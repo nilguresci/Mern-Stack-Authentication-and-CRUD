@@ -39,7 +39,7 @@ const RegisterScreen = ({history}) => {
         }
 
         try {
-            const {data} = await axios.post("/api/auth/register", {username,email,password} , config);
+            const {data} = await axios.post("http://localhost:5000/api/auth/register", {username,email,password} , config);
 
             localStorage.setItem("authToken", data.token)
 

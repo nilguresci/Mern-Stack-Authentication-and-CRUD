@@ -7,7 +7,6 @@ exports.register = async (req,res,next) => {
     try {
         const user= await User.create({
             username,email,password
-            
         })
 
         sendToken(user,201,res)
