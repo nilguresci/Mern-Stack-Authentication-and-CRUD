@@ -95,7 +95,7 @@ const DeleteCustScreen = ({ history, match }) => {
             class="btn btn-danger btn-lg"
             onClick={onDelete}
           >
-            Delete
+            Delete customer
           </button>
         </div>
       </div>

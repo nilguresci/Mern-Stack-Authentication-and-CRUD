@@ -99,7 +99,7 @@ exports.updateCustomer = async (req, res, next) => {
       customer.email = req.body.email;
     }
     if (req.body.phone) {
-      customer.sector = req.body.phone;
+      customer.phone = req.body.phone;
     }
 
     await customer.save();

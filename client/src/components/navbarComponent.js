@@ -6,9 +6,9 @@ const navbarComponent = ({ history }) => {
   };
 
   return (
-    <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav className="navbar navbar-light bg-light navbar-expand-lg">
       <a className="navbar-brand" href="#">
-        Navbar
+        Software Arge Customers
       </a>
       <button
         className="navbar-toggler"

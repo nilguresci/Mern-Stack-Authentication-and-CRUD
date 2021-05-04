@@ -93,8 +93,8 @@ const EditCustComp = ({ history, match }) => {
       );
       console.log(data);
 
-      window.location.reload(false);
-      //history.push("/addcustomer");
+      //window.location.reload(false);
+      history.push("/");
     } catch (error) {
       setError(error.response.data.error);
       setTimeout(() => {
@@ -216,7 +216,7 @@ const EditCustComp = ({ history, match }) => {
         </div>
 
         <button type="submit" className="btn btn-primary mb-2">
-          Submit
+          Edit customer
         </button>
       </form>
     </div>

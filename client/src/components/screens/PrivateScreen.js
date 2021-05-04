@@ -39,6 +39,7 @@ const PrivateScreen = ({ history }) => {
     <span className="error-message">{error}</span>
   ) : (
     <>
+      <br />
       <div class="row">
         {customerData.map((customer) => (
           <div className="col">
